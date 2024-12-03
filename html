@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rive Animation</title>
+</head>
+<body>
+  <canvas id="riveCanvas" width="500" height="500"></canvas>
+  <script src="https://cdn.rive.app/rc.js"></script>
+  <script>
+      new Rive({
+          src: "my_1st_test.riv", // Reference to your Rive file
+          canvas: document.getElementById("riveCanvas"),
+          autoplay: true,
+      });
+  </script>
+</body>
+</html>
